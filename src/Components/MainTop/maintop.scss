@@ -1,0 +1,196 @@
+.masthead{
+    background-color: #0C1421;
+    height: 90vh;
+    width: 100% !important;
+    margin: 0;
+    display: flex;
+    align-items: flex-end;
+
+    .svg-space{
+        position: static;
+        border: 0px;
+    }
+
+    .header-main {
+        background-color: #0C1421;
+        margin: 0;
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-position: center;
+      
+        /* New styles for responsiveness */
+        background-size: contain;
+
+        img{
+            width: 150px;
+        }
+
+        p{
+            font-size: 50px;
+            font-weight: bold;
+            color: #D9C884;
+        }
+
+        .alternance-content{
+            width: 70%;
+
+            .preparation,
+            .rythme,
+            .techs,
+            .type-contract{
+                display: flex;
+                justify-content: center;
+
+        
+                    
+            }
+        }
+    }
+
+    .header-main p {
+        overflow: hidden;
+        white-space: nowrap;
+        animation: typing 2s steps(30) forwards;
+        animation-fill-mode: forwards;
+      }
+  
+      @keyframes typing {
+        from {
+          width: 0;
+        }
+        to {
+          width: 100%;
+        }
+    }
+
+
+    .alternance-content {
+        overflow: hidden;
+      }
+      .title,
+      .type-contract,
+      .preparation,
+      .rythme,
+      .techs {
+        white-space: nowrap;
+        overflow: hidden;
+        animation: typing 1s steps(30) forwards;
+        animation-fill-mode: both;
+      }
+      
+      .title{
+        animation-delay: 1.5s;
+      }
+
+      .type-contract {
+        animation-delay: 2s;
+      }
+      
+      .preparation {
+        animation-delay: 3s; /* Adjust the delay based on your preference */
+      }
+      
+      .rythme {
+        animation-delay: 4s; /* Adjust the delay based on your preference */
+      }
+      
+      .techs {
+        animation-delay: 5s; /* Adjust the delay based on your preference */
+      }
+      
+      @keyframes typing {
+        from {
+          width: 0;
+        }
+        to {
+          width: 100%;
+        }
+    }
+}
+
+
+/*Border animation*/
+
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 90deg;
+  inherits: true;
+}
+
+@property --gradX {
+  syntax: '<percentage>';
+  initial-value: 50%;
+  inherits: true;
+}
+
+@property --gradY {
+  syntax: '<percentage>';
+  initial-value: 0%;
+  inherits: true;
+}
+
+:root {
+	--d: 2500ms;
+	--angle: 120deg;
+	--gradX: 100%;
+	--gradY: 50%;
+	--c1: rgb(218, 216, 216);
+	--c2: rgba(168, 239, 255, 0.1);
+
+}
+
+
+.box {
+	font-size: 3vw;
+    height: 45vh;
+	border: 0.35rem solid;
+	padding: 3vw;
+	border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
+	animation: borderRotate var(--d) linear infinite forwards;
+    align-self: flex-start;
+    margin-top: 160px;
+    margin-left: 85px;
+    box-shadow: 0px 0px 10px 2px yellow;
+    animation-delay: 6s;
+}
+
+.box:nth-child(2) {
+	border-image: radial-gradient(ellipse at var(--gradX) var(--gradY), var(--c1), var(--c1) 10%, var(--c2) 40%) 30;
+	animation: borderRadial var(--d) linear infinite forwards;
+}
+
+@keyframes borderRotate {
+	100% {
+		--angle: 420deg;
+	}
+}
+
+@keyframes borderRadial {
+	20% {
+		--gradX: 100%;
+		--gradY: 50%;
+	}
+	40% {
+		--gradX: 100%;
+		--gradY: 100%;
+	}
+	60% {
+		--gradX: 50%;
+		--gradY: 100%;
+	}
+	80% {
+		--gradX: 0%;
+		--gradY: 50%;
+	}
+	100% {
+		--gradX: 50%;
+		--gradY: 0%;
+	}
+}
+
+/*Border animation --- END --*/

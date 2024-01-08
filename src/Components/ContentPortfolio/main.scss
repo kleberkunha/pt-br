@@ -1,0 +1,44 @@
+.content-control-div {
+    background-color: #0C1421;
+
+    .devide-top-and-body{
+        height: 10vh;
+    }
+  
+    .banner-portfolio {
+        img {
+            width: 60%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+        }
+
+
+
+        
+        .info-tech{
+            border: 1px solid yellow;
+            color: white;
+            display: none;
+            width: 60%;
+            height: 30vh;
+        }
+
+        
+    }
+
+
+  
+    @media only screen and (max-width: 767px) {
+      /* Styles for screens with a maximum width of 767px (phones) */
+      .banner-portfolio {
+        img {
+          max-width: 80%; /* Adjust the maximum width for smaller screens */
+        }
+      }
+    }
+}
+
+
+/*MODAL*/

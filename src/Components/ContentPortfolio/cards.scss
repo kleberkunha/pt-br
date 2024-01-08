@@ -1,0 +1,192 @@
+
+.test-card-1{
+    border: 1px solid yellow;
+    width: 71px;
+    height: 84px;
+    position: absolute;
+    margin-left: 504px;
+    margin-top: 11px;
+    border-radius: 6px;
+}
+.test-card-2{
+    border: 1px solid yellow;
+    width: 71px;
+    height: 84px;
+    position: absolute;
+    margin-left: 37.7%;
+    margin-top: 11px;
+    border-radius: 6px;
+}
+.test-card-3{
+    border: 1px solid yellow;
+    width: 71px;
+    height: 84px;
+    position: absolute;
+    margin-left: 48.5%;
+    margin-top: 16px;
+    border-radius: 6px;
+}
+.test-card-4{
+    border: 1px solid yellow;
+    width: 71px;
+    height: 84px;
+    position: absolute;
+    margin-left: 60.5%;
+    margin-top: 11px;
+    border-radius: 6px;
+}
+.test-card-5{
+    border: 1px solid yellow;
+    width: 71px;
+    height: 84px;
+    position: absolute;
+    margin-left: 70.9%;
+    margin-top: 11px;
+    border-radius: 6px;
+}
+.test-card-6{
+    border: 1px solid yellow;
+    width: 71px;
+    height: 84px;
+    position: absolute;
+    margin-left: 20.6%;
+    margin-top: 11.5vh;
+    border-radius: 6px;
+}
+.test-card-7{
+    border: 1px solid yellow;
+    width: 71px;
+    height: 84px;
+    position: absolute;
+    margin-left: 31.7%;
+    margin-top: 11.5vh;
+    border-radius: 6px;
+}
+.test-card-8{
+    border: 1px solid yellow;
+    width: 71px;
+    height: 84px;
+    position: absolute;
+    margin-left: 43.3%;
+    margin-top: 11.5vh;
+    border-radius: 6px;
+}
+.test-card-9{
+    border: 1px solid yellow;
+    width: 71px;
+    height: 84px;
+    position: absolute;
+    margin-left: 54.3%;
+    margin-top: 11.5vh;
+    border-radius: 6px;
+}
+.test-card-10{
+    border: 1px solid yellow;
+    width: 71px;
+    height: 84px;
+    position: absolute;
+    margin-left: 65.5%;
+    margin-top: 11.5vh;
+    border-radius: 6px;
+}
+.test-card-11{
+    border: 1px solid yellow;
+    width: 71px;
+    height: 84px;
+    position: absolute;
+    margin-left: 75.7%;
+    margin-top: 11.5vh;
+    border-radius: 6px;
+}
+.test-card-12{
+    border: 1px solid yellow;
+    width: 71px;
+    height: 84px;
+    position: absolute;
+    margin-left: 70.9%;
+    margin-top: 24.2vh;
+    border-radius: 6px;
+}
+.test-card-13{
+    border: 1px solid yellow;
+    width: 72px;
+    height: 84px;
+    position: absolute;
+    margin-left: 60.2%;
+    margin-top: 24.3vh;
+    border-radius: 6px;
+}
+.test-card-14{
+    border: 1px solid yellow;
+    width: 71px;
+    height: 84px;
+    position: absolute;
+    margin-left: 49.1%;
+    margin-top: 25.2vh;
+    border-radius: 6px;
+}
+.test-card-15{
+    border: 1px solid yellow;
+    width: 71px;
+    height: 84px;
+    position: absolute;
+    margin-left: 25.7%;
+    margin-top: 24.6vh;
+    border-radius: 6px;
+}
+.test-card-16{
+    border: 1px solid yellow;
+    width: 71px;
+    height: 84px;
+    position: absolute;
+    margin-left: 38%;
+    margin-top: 24.6vh;
+    border-radius: 6px;
+}
+
+
+.test-card-1,
+.test-card-2,
+.test-card-3,
+.test-card-4,
+.test-card-5,
+.test-card-6,
+.test-card-7{
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.test-card-8,
+.test-card-9,
+.test-card-10,
+.test-card-11,
+.test-card-12,
+.test-card-13,
+.test-card-14,
+.test-card-15,
+.test-card-16{
+    transition: transform 0.3s ease-in-out;
+}
+
+
+
+
+
+.test-card-1:hover,
+.test-card-2:hover,
+.test-card-3:hover,
+.test-card-4:hover,
+.test-card-5:hover,
+.test-card-6:hover,
+.test-card-7:hover,
+.test-card-8:hover,
+.test-card-9:hover,
+.test-card-10:hover,
+.test-card-11:hover,
+.test-card-12:hover,
+.test-card-13:hover,
+.test-card-14:hover,
+.test-card-15:hover,
+.test-card-16:hover{
+    box-shadow: 0px 0px 5px 5px white;
+}
