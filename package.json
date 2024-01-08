@@ -16,14 +16,14 @@
     "sass": "^1.69.7",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://<kleberkunha>.github.io/pt-br",
+  "homepage": "https://kleberkunha.github.io/pt-br",
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
