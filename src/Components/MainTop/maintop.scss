@@ -1,10 +1,8 @@
 .masthead{
     background-color: #0C1421;
-    height: 90vh;
-    width: 100% !important;
     margin: 0;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
 
     .svg-space{
         position: static;
@@ -12,10 +10,6 @@
     }
 
     .header-main {
-        background-color: #0C1421;
-        margin: 0;
-        width: 100%;
-        height: 80vh;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -147,16 +141,14 @@
 
 .box {
 	font-size: 3vw;
-    height: 45vh;
+  height: 45vh;
 	border: 0.35rem solid;
 	padding: 3vw;
 	border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
 	animation: borderRotate var(--d) linear infinite forwards;
-    align-self: flex-start;
-    margin-top: 160px;
-    margin-left: 85px;
-    box-shadow: 0px 0px 10px 2px yellow;
-    animation-delay: 6s;
+  align-self: flex-start;
+  box-shadow: 0px 0px 10px 2px yellow;
+  animation-delay: 6s;
 }
 
 .box:nth-child(2) {
@@ -194,3 +186,16 @@
 }
 
 /*Border animation --- END --*/
+
+/*Responsive*/
+
+@media screen and (min-width: 400px) and (max-width: 1023px) {
+  .masthead{
+
+    .svg-space{
+      display: none;
+    }
+
+  }
+}
+

@@ -28,22 +28,22 @@ function Main() {
 
                 <div className='banner-portfolio'>
 
-                    <div className='test-card-1' onClick={() => handleClick()}></div>
-                    <div className='test-card-2' ></div>
-                    <div className='test-card-3' ></div>
-                    <div className='test-card-4' ></div>
-                    <div className='test-card-5' ></div>
-                    <div className='test-card-6' ></div>
-                    <div className='test-card-7' ></div>
-                    <div className='test-card-8' ></div>
-                    <div className='test-card-9' ></div>
-                    <div className='test-card-10' ></div>
-                    <div className='test-card-11' ></div>
-                    <div className='test-card-12' ></div>
-                    <div className='test-card-13' ></div>
-                    <div className='test-card-14' ></div>
-                    <div className='test-card-15' ></div>
-                    <div className='test-card-16' ></div>
+                    <div className='test-card-1 cards-tech' onClick={() => handleClick()}></div>
+                    <div className='test-card-2 cards-tech' ></div>
+                    <div className='test-card-3 cards-tech' ></div>
+                    <div className='test-card-4 cards-tech' ></div>
+                    <div className='test-card-5 cards-tech' ></div>
+                    <div className='test-card-6 cards-tech' ></div>
+                    <div className='test-card-7 cards-tech' ></div>
+                    <div className='test-card-8 cards-tech' ></div>
+                    <div className='test-card-9 cards-tech' ></div>
+                    <div className='test-card-10 cards-tech' ></div>
+                    <div className='test-card-11 cards-tech' ></div>
+                    <div className='test-card-12 cards-tech' ></div>
+                    <div className='test-card-13 cards-tech' ></div>
+                    <div className='test-card-14 cards-tech' ></div>
+                    <div className='test-card-15 cards-tech' ></div>
+                    <div className='test-card-16 cards-tech' ></div>
 
                     <img src={bannerTech} alt="" />
                 </div>
